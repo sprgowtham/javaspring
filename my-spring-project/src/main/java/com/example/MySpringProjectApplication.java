@@ -18,7 +18,7 @@ class SampleController {
 
     @GetMapping("/hello")
 public String sayHello() {
-    String name = "Aadvik";
+    String name = "HI Aadvik GS";
     String message = "Hello " + name + ", Second Commit!";
     System.out.println("sayHello() invoked, returning message: " + message);
     return message;
