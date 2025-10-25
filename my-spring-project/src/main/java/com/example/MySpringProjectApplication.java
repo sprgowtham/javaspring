@@ -18,6 +18,6 @@ class SampleController {
 
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello Gowtham!";
+        return "Hello Gowtham, Second Commit!";
     }
 }
