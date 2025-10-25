@@ -17,7 +17,10 @@ public class MySpringProjectApplication {
 class SampleController {
 
     @GetMapping("/hello")
-    public String sayHello() {
-        return "Hello Gowtham, Second Commit!";
-    }
+public String sayHello() {
+    String name = "Gowtham";
+    String message = "Hello " + name + ", Second Commit!";
+    System.out.println("sayHello() invoked, returning message: " + message);
+    return message;
+}
 }
